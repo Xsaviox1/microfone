@@ -1,0 +1,61 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url(cidadeChuvaBackground.gif);
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+.button-mic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
+    height: 40px;
+    width: 48px;
+    border: none;
+    background: #1b1b1cde;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .lable {
+    line-height: 20px;
+    font-size: 17px;
+    color: #FF342B;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .button-mic:hover {
+    background: #1b1b1c;
+  }
+  
+  
+  /* 
+  .button:hover .svg-icon {
+    animation: scale 1s linear infinite;
+  }
+  */
+  
+  .botao .svg-icon {
+    animation: scale 1.5s linear infinite;
+  }
+  
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.17) rotate(11deg);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
